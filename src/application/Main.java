@@ -14,7 +14,7 @@ public class Main {
         int n = sc.nextInt();
         Product[] vect = new Product[n];
 
-        for(int i = 0; i<n ; i ++){
+        for(int i = 0; i<vect.length ; i ++){
             sc.nextLine();
             String name = sc.nextLine(); //consumir uma linha em branco//
             double price = sc.nextDouble();
